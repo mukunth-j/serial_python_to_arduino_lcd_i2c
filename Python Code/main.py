@@ -1,6 +1,6 @@
 def mywrite(mystr):
     #ser.write(bytes(mystr,'utf-8'))
-    ser.write('mystr'.encode())
+    ser.write(mystr.encode())
 
 
 import serial
